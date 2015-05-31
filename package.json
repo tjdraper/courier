@@ -1,0 +1,17 @@
+{
+	"schema_version": "1.0",
+	"name" : "courier",
+	"label": "Courier",
+	"version": "0.1.0",
+	"types": [
+		"module"
+	],
+	"paths": {
+		"system": [
+			"system/expressionengine/third_party/courier"
+		],
+		"themes": [
+			"themes/third_party/courier"
+		]
+	}
+}
