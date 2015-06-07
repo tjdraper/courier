@@ -4,7 +4,12 @@
 		name="<?php echo ee()->security->get_csrf_token_name(); ?>"
 		value="<?php echo ee()->security->get_csrf_hash(); ?>"
 	>
-	<h2>Lists</h2>
+	<a href="<?php echo($method_url . 'members' . AMP . 'csv=true'); ?>" class="submit" download>
+		Export CSV
+	</a>
+	<br>
+	<br>
+	<h2>Members</h2>
 	<table class="mainTable padTable" border="0" cellspacing="0" cellpadding="0">
 		<thead>
 			<tr>
@@ -15,10 +20,7 @@
 					Name
 				</th>
 				<th>
-					Handle
-				</th>
-				<th width="100px">
-					Member Count
+					Email
 				</th>
 				<th width="50px">
 					Delete
@@ -26,21 +28,16 @@
 			</tr>
 		</thead>
 		<tbody>
-			<?php foreach ($lists as $list) { ?>
+			<?php foreach ($members as $member) { ?>
 				<tr>
 					<td align="center">
-						<?php echo($list->id); ?>
+						<?php echo($member->id); ?>
 					</td>
 					<td>
-						<a href="<?php echo($method_url . 'view_list' . AMP . 'id=' . $list->id); ?>">
-							<?php echo($list->list_name); ?>
-						</a>
+						<?php echo($member->member_name); ?>
 					</td>
 					<td>
-						<?php echo($list->list_handle); ?>
-					</td>
-					<td>
-						<?php echo($list->member_count); ?>
+						<?php echo($member->member_email); ?>
 					</td>
 					<td>
 
@@ -51,7 +48,7 @@
 	</table>
 	<br>
 	<br>
-	<h2>Add a New List</h2>
+	<h2>Add a New Member</h2>
 	<table class="mainTable padTable" border="0" cellspacing="0" cellpadding="0">
 		<thead>
 			<tr>
@@ -59,7 +56,7 @@
 					Name
 				</th>
 				<th width="50%">
-					Handle
+					Email Address
 				</th>
 			</tr>
 		</thead>
@@ -76,7 +73,7 @@
 				<td>
 					<input
 						type="text"
-						name="new[handle]"
+						name="new[email]"
 						class="js-new-slug"
 					>
 				</td>
