@@ -5,4 +5,5 @@ var COURIER = {
 // @codekit-append "build/slugify.js";
 // @codekit-append "build/nameSlugPopulation.js";
 // @codekit-append "build/listEdit.js";
+// @codekit-append "build/memberEdit.js";
 // @codekit-append "courierFunctions.js";

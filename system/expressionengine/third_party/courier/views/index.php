@@ -98,5 +98,7 @@
 			</tr>
 		</tbody>
 	</table>
-	<input type="submit" class="submit">
+	<div style="text-align: right;">
+		<input type="submit" class="submit">
+	</div>
 </form>

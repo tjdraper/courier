@@ -22,25 +22,38 @@
 				<th>
 					Email
 				</th>
-				<th width="50px">
+				<th align="center" width="50px">
+					Edit
+				</th>
+				<th align="center" width="50px">
 					Delete
 				</th>
 			</tr>
 		</thead>
 		<tbody>
 			<?php foreach ($members as $member) { ?>
-				<tr>
-					<td align="center">
+				<tr class="js-member-edit-parent">
+					<td align="center" class="js-member-edit-id">
 						<?php echo($member->id); ?>
 					</td>
-					<td>
+					<td class="js-member-edit-name">
 						<?php echo($member->member_name); ?>
 					</td>
-					<td>
+					<td class="js-member-edit-email">
 						<?php echo($member->member_email); ?>
 					</td>
-					<td>
-
+					<td align="center">
+						<input
+							type="checkbox"
+							class="js-member-edit"
+						>
+					</td>
+					<td align="center">
+						<input
+							type="checkbox"
+							name="delete[<?php echo($member->id); ?>]"
+							value="<?php echo($member->id); ?>"
+						>
 					</td>
 				</tr>
 			<?php } ?>
@@ -66,19 +79,18 @@
 					<input
 						type="text"
 						name="new[name]"
-						class="js-name-slug"
-						data-slug-target="js-new-slug"
 					>
 				</td>
 				<td>
 					<input
 						type="text"
 						name="new[email]"
-						class="js-new-slug"
 					>
 				</td>
 			</tr>
 		</tbody>
 	</table>
-	<input type="submit" class="submit">
+	<div style="text-align: right;">
+		<input type="submit" class="submit">
+	</div>
 </form>

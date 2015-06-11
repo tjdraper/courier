@@ -31,11 +31,9 @@ class Courier_model extends CI_Model
 	}
 
 	/**
-	 * Delete Lists
+	 * Delete lists
 	 *
-	 * @param array $data {
-	 *     @var string $listIds Array of list IDs to delete
-	 * }
+	 * @param array $listIds
 	 *
 	 * @return void
 	 */
@@ -51,11 +49,9 @@ class Courier_model extends CI_Model
 	}
 
 	/**
-	 * Update Lists
+	 * Update lists
 	 *
-	 * @param array $data {
-	 *     @var array $data
-	 * }
+	 * @param array $data
 	 *
 	 * @return void
 	 */
@@ -136,6 +132,49 @@ class Courier_model extends CI_Model
 			'member_name' => $data['name'],
 			'member_email' => $data['email']
 		));
+	}
+
+	/**
+	 * Delete members
+	 *
+	 * @param array $memberIds
+	 *
+	 * @return void
+	 */
+	public function deleteMembers($memberIds = false)
+	{
+		if ($memberIds) {
+			ee()->db->where_in('id', $memberIds);
+			ee()->db->delete('courier_members');
+
+			ee()->db->where_in('member_id', $memberIds);
+			ee()->db->delete('courier_member_lists');
+		}
+	}
+
+	/**
+	 * Update members
+	 *
+	 * @param array $data
+	 *
+	 * @return void
+	 */
+	public function updateMembers($data)
+	{
+		$updateData = array();
+		$i = 0;
+
+		foreach ($data as $key => $val) {
+			$updateData[$i]['id'] = $key;
+
+			foreach ($val as $key => $val) {
+				$updateData[$i][$key] = $val;
+			}
+
+			$i++;
+		}
+
+		ee()->db->update_batch('courier_members', $updateData, 'id');
 	}
 
 	/**
