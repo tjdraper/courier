@@ -59,7 +59,7 @@ class Courier_mcp
 	{
 		// Check for post to process
 		if ($_POST) {
-			$this->submission('insertNewList', 'updateLists');
+			$this->submission('deleteLists', 'insertNewList', 'updateLists');
 		}
 
 		// Set the page title from the language file
@@ -81,12 +81,12 @@ class Courier_mcp
 	{
 		// Check for post to process
 		if ($_POST) {
-			$this->submission('insertNewMember', 'updateMembers');
+			$this->submission(
+				'deleteMembers',
+				'insertNewMember',
+				'updateMembers'
+			);
 		}
-
-		// Set breadcrumb and page name from language file
-		ee()->cp->set_breadcrumb($this->baseUrl, lang('courier_lists_page_name'));
-		ee()->view->cp_page_title = lang('courier_members_page_name');
 
 		// Get members and set to variable for view
 		$this->vars['members'] = ee()->courier_model->getAllMembers();
@@ -102,8 +102,32 @@ class Courier_mcp
 			$this->csvDownload('All Members.csv');
 		}
 
+		// Set breadcrumb and page name from language file
+		ee()->cp->set_breadcrumb($this->baseUrl, lang('courier_lists_page_name'));
+		ee()->view->cp_page_title = lang('courier_members_page_name');
+
 		// Return the view
 		return ee()->load->view('members', $this->vars, true);
+	}
+
+	/**
+	 * View list page
+	 *
+	 * @return string
+	 */
+	public function view_list()
+	{
+		// Get the list data
+		$this->vars['listData'] = ee()->courier_model->getListWithMembers(array(
+			'list_id' => ee()->input->get('id', true)
+		));
+
+		// Set breadcrumb and page name from language file
+		ee()->cp->set_breadcrumb($this->baseUrl, lang('courier_lists_page_name'));
+		ee()->view->cp_page_title =$this->vars['listData']['list']->list_name;
+
+		// Return the view
+		return ee()->load->view('view_list', $this->vars, true);
 	}
 
 	/**
@@ -132,8 +156,21 @@ class Courier_mcp
 	 *
 	 * @return void
 	 */
-	private function submission($modelInsertMethod, $modelUpdateMethod)
+	private function submission($modelDeleteMethod, $modelInsertMethod, $modelUpdateMethod)
 	{
+		// Check for lists to delete
+		$delete = array();
+
+		if (isset($_POST['delete'])) {
+			foreach ($_POST['delete'] as $key => $val) {
+				$delete[] = ee()->security->xss_clean($val);
+			}
+		}
+
+		if ($delete) {
+			ee()->courier_model->{$modelDeleteMethod}($delete);
+		}
+
 		// Check for new list submission
 		$new = array();
 
@@ -151,6 +188,21 @@ class Courier_mcp
 
 		if ($new) {
 			ee()->courier_model->{$modelInsertMethod}($new);
+		}
+
+		// Check for items to update
+		$update = array();
+
+		if (isset($_POST['update'])) {
+			foreach ($_POST['update'] as $key => $val) {
+				foreach ($val as $valKey => $valVal) {
+					$update[ee()->security->xss_clean($key)][ee()->security->xss_clean($valKey)] = ee()->security->xss_clean($valVal);
+				}
+			}
+		}
+
+		if ($update) {
+			ee()->courier_model->{$modelUpdateMethod}($update);
 		}
 	}
 }

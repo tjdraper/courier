@@ -4,7 +4,6 @@
 		name="<?php echo ee()->security->get_csrf_token_name(); ?>"
 		value="<?php echo ee()->security->get_csrf_hash(); ?>"
 	>
-	<h2>Lists</h2>
 	<table class="mainTable padTable" border="0" cellspacing="0" cellpadding="0">
 		<thead>
 			<tr>
@@ -20,30 +19,46 @@
 				<th width="100px">
 					Member Count
 				</th>
-				<th width="50px">
+				<th align="center" width="50px">
+					Edit
+				</th>
+				<th align="center" width="50px">
 					Delete
 				</th>
 			</tr>
 		</thead>
 		<tbody>
 			<?php foreach ($lists as $list) { ?>
-				<tr>
-					<td align="center">
+				<tr class="js-list-edit-parent">
+					<td align="center" class="js-list-edit-id">
 						<?php echo($list->id); ?>
 					</td>
-					<td>
-						<a href="<?php echo($method_url . 'view_list' . AMP . 'id=' . $list->id); ?>">
+					<td class="js-list-edit-name">
+						<a
+							href="<?php echo($method_url . 'view_list' . AMP . 'id=' . $list->id); ?>"
+							class="js-list-edit-name-value"
+						>
 							<?php echo($list->list_name); ?>
 						</a>
 					</td>
-					<td>
+					<td class="js-list-edit-handle">
 						<?php echo($list->list_handle); ?>
 					</td>
 					<td>
 						<?php echo($list->member_count); ?>
 					</td>
-					<td>
-
+					<td align="center">
+						<input
+							type="checkbox"
+							class="js-list-edit"
+						>
+					</td>
+					<td align="center">
+						<input
+							type="checkbox"
+							name="delete[<?php echo($list->id); ?>]"
+							value="<?php echo($list->id); ?>"
+						>
 					</td>
 				</tr>
 			<?php } ?>

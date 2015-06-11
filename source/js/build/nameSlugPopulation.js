@@ -1,5 +1,4 @@
 COURIER.autoRun.push('nameSlugPopulation');
-
 COURIER.nameSlugPopulation = function() {
 	$('.js-name-slug').each(function() {
 		var $input = $(this);
