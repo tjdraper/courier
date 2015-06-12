@@ -128,6 +128,16 @@ class Courier_model extends CI_Model
 	 */
 	public function insertNewMember($data)
 	{
+		$check = ee()->db->select('*')
+			->from('courier_members')
+			->where('member_email', $data['email'])
+			->get()
+			->result();
+
+		if ($check) {
+			return;
+		}
+
 		ee()->db->insert('courier_members', array(
 			'member_name' => $data['name'],
 			'member_email' => $data['email']
@@ -194,6 +204,42 @@ class Courier_model extends CI_Model
 	}
 
 	/**
+	 * Get members
+	 *
+	 * @return void
+	 */
+	public function getMembers($conf = array())
+	{
+		$dConf = array(
+			'id' => false,
+			'member_name' => false,
+			'member_email' => false
+		);
+
+		$conf = array_merge($dConf, $conf);
+
+		ee()->db->select('*')
+			->from('courier_members')
+			->order_by('member_name', 'asc');
+
+		if ($conf['id']) {
+			ee()->db->where_in('id', $conf['id']);
+		}
+
+		if ($conf['member_name']) {
+			ee()->db->where_in('member_name', $conf['member_name']);
+		}
+
+		if ($conf['member_email']) {
+			ee()->db->where_in('member_email', $conf['member_email']);
+		}
+
+		$query = ee()->db->get()->result();
+
+		return $query;
+	}
+
+	/**
 	 * Get list with list members
 	 *
 	 * @return false|array
@@ -236,5 +282,64 @@ class Courier_model extends CI_Model
 			'list' => $list,
 			'members' => $query
 		);
+	}
+
+	public function insertNewMemberIntoList($listId, $name, $email)
+	{
+		$memberCheck = $this->getMembers(array(
+			'member_email' => $email
+		));
+
+		if ($memberCheck) {
+			$this->attachMemberToList(
+				$listId,
+				$memberCheck[0]->id
+			);
+
+			return;
+		}
+
+		$this->insertNewMember(array(
+			'name' => $name,
+			'email' => $email
+		));
+
+		$member = $this->getMembers(array(
+			'member_email' => $email
+		));
+
+		$this->attachMemberToList(
+			$listId,
+			$member[0]->id
+		);
+	}
+
+	public function attachMemberToList($listId, $memberId)
+	{
+		// Check member lists
+		$check = ee()->db->select('*')
+			->from('courier_member_lists')
+			->where('list_id', $listId)
+			->where('member_id', $memberId)
+			->get()
+			->result();
+
+		if ($check) {
+			return false;
+		}
+
+		ee()->db->insert('courier_member_lists', array(
+			'list_id' => $listId,
+			'member_id' => $memberId
+		));
+	}
+
+	public function removeMembersFromList($listId, $delete)
+	{
+		if ($listId && $delete) {
+			ee()->db->where('list_id', $listId);
+			ee()->db->where_in('member_id', $delete);
+			ee()->db->delete('courier_member_lists');
+		}
 	}
 }

@@ -98,7 +98,6 @@ class Courier_mcp
 				'member_email' => 'Email'
 			);
 			$this->vars['csv_item_variable'] = 'members';
-			$this->vars['csv_body'] = $this->vars['members'];
 			$this->csvDownload('All Members.csv');
 		}
 
@@ -117,10 +116,40 @@ class Courier_mcp
 	 */
 	public function view_list()
 	{
+		// Check for post to process
+		if ($_POST) {
+			$this->listSubmission();
+		}
+
 		// Get the list data
 		$this->vars['listData'] = ee()->courier_model->getListWithMembers(array(
 			'list_id' => ee()->input->get('id', true)
 		));
+
+		// Get all members
+		$this->vars['members'] = ee()->courier_model->getAllMembers();
+
+		// Remove members that are already on the list
+		foreach ($this->vars['listData']['members'] as $key => $val) {
+			foreach ($this->vars['members'] as $mKey => $mVal) {
+				if ($val->id === $mVal->id) {
+					unset($this->vars['members'][$mKey]);
+
+					break;
+				}
+			}
+		}
+
+		// Download a CSV if requested
+		if (ee()->input->get('csv') === 'true') {
+			$this->vars['csv_items'] = array(
+				'member_name' => 'Name',
+				'member_email' => 'Email'
+			);
+			$this->vars['csv_item_variable'] = 'members';
+			$this->vars['members'] = $this->vars['listData']['members'];
+			$this->csvDownload($this->vars['listData']['list']->list_name . ' Members.csv');
+		}
 
 		// Set breadcrumb and page name from language file
 		ee()->cp->set_breadcrumb($this->baseUrl, lang('courier_lists_page_name'));
@@ -156,8 +185,85 @@ class Courier_mcp
 	 *
 	 * @return void
 	 */
-	private function submission($modelDeleteMethod, $modelInsertMethod, $modelUpdateMethod)
+	private function submission(
+		$modelDeleteMethod = false,
+		$modelInsertMethod = false,
+		$modelUpdateMethod = false
+	)
 	{
+		// Check for lists to delete
+		if ($modelDeleteMethod) {
+			$delete = array();
+
+			if (isset($_POST['delete'])) {
+				foreach ($_POST['delete'] as $key => $val) {
+					$delete[] = ee()->security->xss_clean($val);
+				}
+			}
+
+			if ($delete) {
+				ee()->courier_model->{$modelDeleteMethod}($delete);
+			}
+		}
+
+		// Check for new list submission
+		if ($modelInsertMethod) {
+			$new = array();
+
+			foreach ($_POST['new'] as $key => $val) {
+				if (! $val) {
+					$new = array();
+
+					break;
+				}
+
+				$key = ee()->security->xss_clean($key);
+
+				$new[$key] = ee()->security->xss_clean($val);
+			}
+
+			if ($new) {
+				ee()->courier_model->{$modelInsertMethod}($new);
+			}
+		}
+
+		// Check for items to update
+		if ($modelUpdateMethod) {
+			$update = array();
+
+			if (isset($_POST['update'])) {
+				foreach ($_POST['update'] as $key => $val) {
+					foreach ($val as $valKey => $valVal) {
+						$update[ee()->security->xss_clean($key)][ee()->security->xss_clean($valKey)] = ee()->security->xss_clean($valVal);
+					}
+				}
+			}
+
+			if ($update) {
+				ee()->courier_model->{$modelUpdateMethod}($update);
+			}
+		}
+	}
+
+	/**
+	 * Process attach member submissions
+	 *
+	 * @return void
+	 */
+	private function listSubmission()
+	{
+		$listId = ee()->input->post('list_id', true);
+
+		// Check for addition of existing member
+		$existingMemberId = ee()->input->post('existing_member', true);
+
+		if ($existingMemberId) {
+			ee()->courier_model->attachMemberToList(
+				$listId,
+				$existingMemberId
+			);
+		}
+
 		// Check for lists to delete
 		$delete = array();
 
@@ -168,41 +274,19 @@ class Courier_mcp
 		}
 
 		if ($delete) {
-			ee()->courier_model->{$modelDeleteMethod}($delete);
+			ee()->courier_model->removeMembersFromList($listId, $delete);
 		}
 
-		// Check for new list submission
-		$new = array();
+		// Check if a new name and email is being submitted
+		$name = ee()->input->post('new_name');
+		$email = ee()->input->post('new_email');
 
-		foreach ($_POST['new'] as $key => $val) {
-			if (! $val) {
-				$new = array();
-
-				break;
-			}
-
-			$key = ee()->security->xss_clean($key);
-
-			$new[$key] = ee()->security->xss_clean($val);
-		}
-
-		if ($new) {
-			ee()->courier_model->{$modelInsertMethod}($new);
-		}
-
-		// Check for items to update
-		$update = array();
-
-		if (isset($_POST['update'])) {
-			foreach ($_POST['update'] as $key => $val) {
-				foreach ($val as $valKey => $valVal) {
-					$update[ee()->security->xss_clean($key)][ee()->security->xss_clean($valKey)] = ee()->security->xss_clean($valVal);
-				}
-			}
-		}
-
-		if ($update) {
-			ee()->courier_model->{$modelUpdateMethod}($update);
+		if ($name && $email) {
+			ee()->courier_model->insertNewMemberIntoList(
+				$listId,
+				$name,
+				$email
+			);
 		}
 	}
 }
