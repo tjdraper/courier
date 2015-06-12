@@ -189,6 +189,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/system\/expressionengine\/third_party\/courier\/views\/settings.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/views\/settings.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/system\/expressionengine\/third_party\/courier\/views\/view_list.php": {
 		"fileType": 8192,
 		"ignore": 0,

@@ -5,7 +5,7 @@
  *
  * @package courier
  * @author TJ Draper <tj@buzzingpixel.com>
- * @link https://buzzingpixel.com/ee-add-ons/mailing-list-manager
+ * @link https://buzzingpixel.com/ee-add-ons/courier
  * @copyright Copyright (c) 2015, BuzzingPixel
  */
 
@@ -159,6 +159,8 @@ class Courier_model extends CI_Model
 
 			ee()->db->where_in('member_id', $memberIds);
 			ee()->db->delete('courier_member_lists');
+
+			$this->updateListCounts();
 		}
 	}
 
@@ -332,6 +334,8 @@ class Courier_model extends CI_Model
 			'list_id' => $listId,
 			'member_id' => $memberId
 		));
+
+		$this->updateListCounts();
 	}
 
 	public function removeMembersFromList($listId, $delete)
@@ -340,6 +344,26 @@ class Courier_model extends CI_Model
 			ee()->db->where('list_id', $listId);
 			ee()->db->where_in('member_id', $delete);
 			ee()->db->delete('courier_member_lists');
+
+			$this->updateListCounts();
+		}
+	}
+
+	public function updateListCounts()
+	{
+		$lists = $this->getLists();
+
+		foreach ($lists as $list) {
+			$query = ee()->db->select('COUNT(*) AS count')
+				->from('courier_member_lists')
+				->where('list_id', $list->id)
+				->get()
+				->row();
+
+			ee()->db->where('id', $list->id);
+			ee()->db->update('courier_lists', array(
+				'member_count' => $query->count
+			));
 		}
 	}
 }

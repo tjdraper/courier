@@ -32,7 +32,8 @@ class Courier_mcp
 		// Set nav
 		ee()->cp->set_right_nav(array(
 			lang('courier_lists_page_tab_name') => $this->baseUrl,
-			lang('courier_members_page_tab_name') => $this->baseUrl . AMP . 'method=members'
+			lang('courier_members_page_tab_name') => $this->baseUrl . AMP . 'method=members',
+			lang('courier_settings_tab_name') => $this->baseUrl . AMP . 'method=settings'
 		));
 
 		// Set JS
@@ -153,10 +154,28 @@ class Courier_mcp
 
 		// Set breadcrumb and page name from language file
 		ee()->cp->set_breadcrumb($this->baseUrl, lang('courier_lists_page_name'));
-		ee()->view->cp_page_title =$this->vars['listData']['list']->list_name;
+		ee()->view->cp_page_title = $this->vars['listData']['list']->list_name;
 
 		// Return the view
 		return ee()->load->view('view_list', $this->vars, true);
+	}
+
+	/**
+	 * Settings page
+	 *
+	 * @return string
+	 */
+	public function settings()
+	{
+		// Set breadcrumb and page name from language file
+		ee()->cp->set_breadcrumb($this->baseUrl, lang('courier_lists_page_name'));
+		ee()->view->cp_page_title = lang('courier_settings_page_name');
+
+		$siteUrl = trim(ee()->config->item('site_url'), '/');
+		$actionId = ee()->cp->fetch_action_id('Courier', 'check_mail');
+		$this->vars['cron'] = $siteUrl . '/index.php?ACT=' . $actionId;
+
+		return ee()->load->view('settings', $this->vars, true);
 	}
 
 	/**
