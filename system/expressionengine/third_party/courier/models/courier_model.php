@@ -12,6 +12,48 @@
 class Courier_model extends CI_Model
 {
 	/**
+	 * Get list token
+	 *
+	 * @param int $listId
+	 *
+	 * @return string
+	 */
+	public function getListToken($listId = false)
+	{
+		if (! $listId) {
+			return false;
+		}
+
+		$query = ee()->db->select('list_auth_token')
+			->from('courier_lists')
+			->where('id', $listId)
+			->get()
+			->row();
+
+		return $query->list_auth_token;
+	}
+
+	/**
+	 * Set list token
+	 *
+	 * @param int $listId
+	 * @param string $accessToken
+	 *
+	 * @return void
+	 */
+	public function setListToken($listId = false, $accessToken = false)
+	{
+		if (! $listId || ! $accessToken) {
+			return false;
+		}
+
+		ee()->db->where('id', $listId);
+		ee()->db->update('courier_lists', array(
+			'list_auth_token' => $accessToken
+		));
+	}
+
+	/**
 	 * Insert a new list
 	 *
 	 * @param array $data {
@@ -26,6 +68,7 @@ class Courier_model extends CI_Model
 		ee()->db->insert('courier_lists', array(
 			'list_handle' => $data['handle'],
 			'list_name' => $data['name'],
+			'list_email_address' => $data['email_address'],
 			'member_count' => 0
 		));
 	}
@@ -214,31 +257,38 @@ class Courier_model extends CI_Model
 	{
 		$dConf = array(
 			'id' => false,
+			'list_id' => false,
 			'member_name' => false,
 			'member_email' => false
 		);
 
 		$conf = array_merge($dConf, $conf);
 
-		ee()->db->select('*')
-			->from('courier_members')
-			->order_by('member_name', 'asc');
+		ee()->db->select('M.*')
+			->from('courier_members M')
+			->order_by('M.member_name', 'asc');
 
 		if ($conf['id']) {
-			ee()->db->where_in('id', $conf['id']);
+			ee()->db->where_in('M.id', $conf['id']);
+		}
+
+		if ($conf['list_id']) {
+			ee()->db->join(
+					'courier_member_lists L',
+					'M.id = L.member_id'
+				)
+				->where_in('L.list_id', $conf['list_id']);
 		}
 
 		if ($conf['member_name']) {
-			ee()->db->where_in('member_name', $conf['member_name']);
+			ee()->db->where_in('M.member_name', $conf['member_name']);
 		}
 
 		if ($conf['member_email']) {
-			ee()->db->where_in('member_email', $conf['member_email']);
+			ee()->db->where_in('M.member_email', $conf['member_email']);
 		}
 
-		$query = ee()->db->get()->result();
-
-		return $query;
+		return ee()->db->get()->result();
 	}
 
 	/**

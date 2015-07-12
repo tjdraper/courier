@@ -39,6 +39,13 @@ class Courier_install_model extends CI_Model
 				'type' => 'VARCHAR',
 				'constraint' => 255
 			),
+			'list_email_address' => array(
+				'type' => 'VARCHAR',
+				'constraint' => 255
+			),
+			'list_auth_token' => array(
+				'type' => 'TEXT'
+			),
 			'member_count' => array(
 				'type' => 'INT',
 				'unsigned' => true

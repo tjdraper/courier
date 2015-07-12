@@ -16,8 +16,14 @@
 				<th>
 					Handle
 				</th>
+				<th>
+					Email Address
+				</th>
 				<th width="100px">
 					Member Count
+				</th>
+				<th width="100px">
+					Authorization
 				</th>
 				<th align="center" width="50px">
 					Edit
@@ -44,8 +50,20 @@
 					<td class="js-list-edit-handle">
 						<?php echo($list->list_handle); ?>
 					</td>
+					<td class="js-list-edit-email-address">
+						<?php echo($list->list_email_address); ?>
+					</td>
 					<td>
 						<?php echo($list->member_count); ?>
+					</td>
+					<td>
+						<a href="<?php echo($method_url . 'authorize_list' . AMP . 'id=' . $list->id); ?>">
+						<?php if (! $list->list_auth_token) { ?>
+							Authorize
+						<?php } else { ?>
+							Reauthorize
+						<?php } ?>
+						</a>
 					</td>
 					<td align="center">
 						<input
@@ -70,11 +88,14 @@
 	<table class="mainTable padTable" border="0" cellspacing="0" cellpadding="0">
 		<thead>
 			<tr>
-				<th width="50%">
+				<th width="33%">
 					Name
 				</th>
-				<th width="50%">
+				<th width="33%">
 					Handle
+				</th>
+				<th width="33%">
+					Email Address
 				</th>
 			</tr>
 		</thead>
@@ -93,6 +114,12 @@
 						type="text"
 						name="new[handle]"
 						class="js-new-slug"
+					>
+				</td>
+				<td>
+					<input
+						type="text"
+						name="new[email_address]"
 					>
 				</td>
 			</tr>

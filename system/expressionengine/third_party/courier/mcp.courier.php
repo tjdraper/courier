@@ -39,10 +39,6 @@ class Courier_mcp
 		// Set JS
 		ee()->cp->load_package_js('courier.min');
 
-		// Set CSS
-		// ee()->cp->add_to_head('<link rel="stylesheet" href="' . $this->themesUrl . 'chosen.min.css">');
-		// ee()->cp->load_package_css('collective.min');
-
 		// Set vars we always want in the views
 		$this->vars = array(
 			'base_url' => $this->baseUrl,
@@ -74,6 +70,29 @@ class Courier_mcp
 	}
 
 	/**
+	 * Authorize list
+	 *
+	 * @return string
+	 */
+	public function authorize_list()
+	{
+		// Load the library
+		ee()->load->library('courier_google_lib');
+
+		if (ee()->input->get('auth_success', true) === 'true') {
+			$listId = explode('=', ee()->input->get('state'));
+
+			ee()->courier_google_lib->setListToken(
+				$listId[1],
+				ee()->input->get('code'),
+				$this->baseUrl
+			);
+		}
+
+		ee()->courier_google_lib->requestAuth(ee()->input->get('id', true));
+	}
+
+	/**
 	 * Members page
 	 *
 	 * @return string
@@ -93,7 +112,7 @@ class Courier_mcp
 		$this->vars['members'] = ee()->courier_model->getAllMembers();
 
 		// Download a CSV if requested
-		if (ee()->input->get('csv') === 'true') {
+		if (ee()->input->get('csv', true) === 'true') {
 			$this->vars['csv_items'] = array(
 				'member_name' => 'Name',
 				'member_email' => 'Email'
@@ -142,7 +161,7 @@ class Courier_mcp
 		}
 
 		// Download a CSV if requested
-		if (ee()->input->get('csv') === 'true') {
+		if (ee()->input->get('csv', true) === 'true') {
 			$this->vars['csv_items'] = array(
 				'member_name' => 'Name',
 				'member_email' => 'Email'
@@ -297,8 +316,8 @@ class Courier_mcp
 		}
 
 		// Check if a new name and email is being submitted
-		$name = ee()->input->post('new_name');
-		$email = ee()->input->post('new_email');
+		$name = ee()->input->post('new_name', true);
+		$email = ee()->input->post('new_email', true);
 
 		if ($name && $email) {
 			ee()->courier_model->insertNewMemberIntoList(

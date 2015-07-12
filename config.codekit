@@ -108,11 +108,1557 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/system\/expressionengine\/third_party\/courier\/libraries\/courier_lib.php": {
+	"\/system\/expressionengine\/third_party\/courier\/lib\/auth_config\/client_secret.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/auth_config\/client_secret.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/auth_config\/client_secret-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/autoload.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/libraries\/courier_lib.php",
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/autoload.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/composer.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/composer.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/composer-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/CONTRIBUTING.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/CONTRIBUTING.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/CONTRIBUTING.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/examples\/appengineauth.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/examples\/appengineauth.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/examples\/batch.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/examples\/batch.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/examples\/fileupload.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/examples\/fileupload.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/examples\/idtoken.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/examples\/idtoken.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/examples\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/examples\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/examples\/multi-api.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/examples\/multi-api.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/examples\/service-account.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/examples\/service-account.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/examples\/simple-query.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/examples\/simple-query.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/examples\/simplefileupload.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/examples\/simplefileupload.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/examples\/styles\/style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/examples\/styles\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/examples\/templates\/base.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/examples\/templates\/base.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/examples\/user-example.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/examples\/user-example.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/README.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/README.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/README.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Auth\/Abstract.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Auth\/Abstract.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Auth\/AppIdentity.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Auth\/AppIdentity.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Auth\/AssertionCredentials.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Auth\/AssertionCredentials.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Auth\/ComputeEngine.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Auth\/ComputeEngine.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Auth\/Exception.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Auth\/Exception.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Auth\/LoginTicket.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Auth\/LoginTicket.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Auth\/OAuth2.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Auth\/OAuth2.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Auth\/Simple.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Auth\/Simple.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/autoload.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/autoload.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Cache\/Abstract.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Cache\/Abstract.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Cache\/Apc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Cache\/Apc.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Cache\/Exception.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Cache\/Exception.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Cache\/File.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Cache\/File.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Cache\/Memcache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Cache\/Memcache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Cache\/Null.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Cache\/Null.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Client.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Client.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Collection.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Collection.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Config.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Config.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Exception.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Exception.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Http\/Batch.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Http\/Batch.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Http\/CacheParser.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Http\/CacheParser.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Http\/MediaFileUpload.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Http\/MediaFileUpload.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Http\/Request.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Http\/Request.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Http\/REST.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Http\/REST.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/IO\/Abstract.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/IO\/Abstract.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/IO\/Curl.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/IO\/Curl.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/IO\/Exception.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/IO\/Exception.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/IO\/Stream.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/IO\/Stream.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Logger\/Abstract.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Logger\/Abstract.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Logger\/Exception.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Logger\/Exception.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Logger\/File.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Logger\/File.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Logger\/Null.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Logger\/Null.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Logger\/Psr.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Logger\/Psr.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Model.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Model.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/AdExchangeBuyer.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/AdExchangeBuyer.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/AdExchangeSeller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/AdExchangeSeller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Admin.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Admin.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/AdSense.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/AdSense.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/AdSenseHost.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/AdSenseHost.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Analytics.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Analytics.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/AndroidEnterprise.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/AndroidEnterprise.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/AndroidPublisher.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/AndroidPublisher.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Appsactivity.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Appsactivity.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/AppState.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/AppState.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Audit.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Audit.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Autoscaler.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Autoscaler.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Bigquery.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Bigquery.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Blogger.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Blogger.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Books.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Books.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Calendar.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Calendar.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/CivicInfo.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/CivicInfo.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Cloudlatencytest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Cloudlatencytest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/CloudMonitoring.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/CloudMonitoring.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Cloudsearch.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Cloudsearch.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Compute.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Compute.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Computeaccounts.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Computeaccounts.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Container.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Container.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Coordinate.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Coordinate.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Customsearch.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Customsearch.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Dataflow.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Dataflow.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Datastore.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Datastore.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Deploymentmanager.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Deploymentmanager.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Dfareporting.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Dfareporting.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Directory.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Directory.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Dns.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Dns.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/DoubleClickBidManager.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/DoubleClickBidManager.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Doubleclicksearch.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Doubleclicksearch.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Drive.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Drive.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Exception.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Exception.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Fitness.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Fitness.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Freebase.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Freebase.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Fusiontables.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Fusiontables.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Games.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Games.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/GamesConfiguration.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/GamesConfiguration.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/GamesManagement.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/GamesManagement.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Genomics.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Genomics.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Gmail.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Gmail.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/GroupsMigration.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/GroupsMigration.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Groupssettings.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Groupssettings.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/IdentityToolkit.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/IdentityToolkit.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Licensing.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Licensing.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Logging.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Logging.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Manager.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Manager.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/MapsEngine.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/MapsEngine.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Mirror.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Mirror.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Oauth2.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Oauth2.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Pagespeedonline.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Pagespeedonline.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Plus.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Plus.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/PlusDomains.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/PlusDomains.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Prediction.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Prediction.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Pubsub.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Pubsub.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/QPXExpress.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/QPXExpress.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Replicapool.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Replicapool.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Replicapoolupdater.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Replicapoolupdater.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Reports.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Reports.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Reseller.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Reseller.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Resource.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Resource.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Resourceviews.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Resourceviews.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/ShoppingContent.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/ShoppingContent.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/SiteVerification.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/SiteVerification.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Spectrum.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Spectrum.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/SQLAdmin.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/SQLAdmin.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Storage.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Storage.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/TagManager.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/TagManager.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Taskqueue.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Taskqueue.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Tasks.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Tasks.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Translate.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Translate.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Urlshortener.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Urlshortener.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Webfonts.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Webfonts.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Webmasters.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/Webmasters.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/YouTube.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/YouTube.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/YouTubeAnalytics.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Service\/YouTubeAnalytics.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Signer\/Abstract.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Signer\/Abstract.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Signer\/P12.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Signer\/P12.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Task\/Exception.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Task\/Exception.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Task\/Retryable.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Task\/Retryable.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Task\/Runner.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Task\/Runner.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Utils.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Utils.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Utils\/URITemplate.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Utils\/URITemplate.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Verifier\/Abstract.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Verifier\/Abstract.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Verifier\/Pem.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/src\/Google\/Verifier\/Pem.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/adsense\/AdSenseTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/adsense\/AdSenseTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/BaseTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/BaseTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/bootstrap.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/bootstrap.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/ApiBatchRequestTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/ApiBatchRequestTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/ApiCacheParserTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/ApiCacheParserTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/ApiClientTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/ApiClientTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/ApiMediaFileUploadTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/ApiMediaFileUploadTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/ApiModelTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/ApiModelTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/ApiOAuth2Test.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/ApiOAuth2Test.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/AuthTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/AuthTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/CacheTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/CacheTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/ComputeEngineAuthTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/ComputeEngineAuthTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/IoTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/IoTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/LoggerTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/LoggerTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/RequestTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/RequestTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/ResourceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/ResourceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/RestTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/RestTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/ServiceTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/ServiceTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/TaskTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/TaskTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/testdata\/cacert.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/testdata\/cacert.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/testdata\/cacert-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/testdata\/service-12345.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/testdata\/service-12345.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/testdata\/service-12345-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/testdata\/service-rsa-12345.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/testdata\/service-rsa-12345.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/testdata\/service-rsa-12345-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/URITemplateTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/general\/URITemplateTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/OAuthHelper.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/OAuthHelper.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/pagespeed\/PageSpeedTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/pagespeed\/PageSpeedTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/plus\/PlusTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/plus\/PlusTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/tasks\/TasksTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/tasks\/TasksTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/urlshortener\/UrlShortenerTests.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/urlshortener\/UrlShortenerTests.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/youtube\/YouTubeTest.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/lib\/google-api\/tests\/youtube\/YouTubeTest.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/system\/expressionengine\/third_party\/courier\/libraries\/courier_google_lib.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/system\/expressionengine\/third_party\/courier\/libraries\/courier_google_lib.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
