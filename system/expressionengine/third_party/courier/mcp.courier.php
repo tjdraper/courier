@@ -179,6 +179,59 @@ class Courier_mcp
 		return ee()->load->view('view_list', $this->vars, true);
 	}
 
+	public function list_import_csv()
+	{
+		// Make sure there is a file
+		if (! isset($_FILES['csv_file'])) {
+			$this->list_import_return();
+		}
+
+		// Get the CSV content
+		$csvContent = file_get_contents($_FILES['csv_file']['tmp_name']);
+		$data = str_getcsv($csvContent, "\n");
+
+		// Parse the CSV content into an array
+		$members = array();
+
+		$rowCount = 0;
+
+		foreach ($data as &$row) {
+			// If it's the first row, ignore it
+			if ($rowCount === 0) {
+				$rowCount++;
+
+				continue;
+			}
+
+			$row = str_getcsv($row, ",");
+
+			// Make sure the expected number of fields are available
+			if (count($row) !== 2) {
+				$this->list_import_return();
+			}
+
+			// Set the fields to the members array
+			$members[$row[0]] = $row[1];
+		}
+
+		// Loop through the members
+		foreach ($members as $memberName => $memberEmail) {
+			// Insert members into list
+			ee()->courier_model->insertNewMemberIntoList(
+				ee()->input->get('id', true),
+				$memberName,
+				$memberEmail
+			);
+		}
+
+		$this->list_import_return();
+	}
+
+	public function list_import_return()
+	{
+		ee()->functions->redirect($this->methodUrl . 'view_list' . AMP . 'id=' . ee()->input->get('id', true));
+	}
+
 	/**
 	 * Settings page
 	 *

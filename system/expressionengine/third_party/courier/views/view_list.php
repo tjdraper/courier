@@ -1,3 +1,21 @@
+<form
+	method="post"
+	enctype="multipart/form-data"
+	action="<?php echo $method_url . 'list_import_csv' . AMP . 'id=' . $listData['list']->id; ?>"
+>
+	<input
+		type="hidden"
+		name="<?php echo ee()->security->get_csrf_token_name(); ?>"
+		value="<?php echo ee()->security->get_csrf_hash(); ?>"
+	>
+	<input type="file" name="csv_file" required>
+	<br>
+	<br>
+	<input type="submit" class="submit" value="Import CSV">
+	<a href="<?php echo($method_url . 'view_list&id=' . $listData['list']->id . AMP . 'csv=true'); ?>" class="submit" download>
+		Export CSV
+	</a>
+</form>
 <form method="post">
 	<input
 		type="hidden"
@@ -9,9 +27,6 @@
 		name="list_id"
 		value="<?php echo $listData['list']->id; ?>"
 	>
-	<a href="<?php echo($method_url . 'view_list&id=' . $listData['list']->id . AMP . 'csv=true'); ?>" class="submit" download>
-		Export CSV
-	</a>
 	<br>
 	<br>
 	<h2>Members</h2>

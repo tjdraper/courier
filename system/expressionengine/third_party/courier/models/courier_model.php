@@ -125,7 +125,7 @@ class Courier_model extends CI_Model
 	 *      @var false|string|array $list_name
 	 * }
 	 *
-	 * @return void
+	 * @return object
 	 */
 	public function getLists($conf = array())
 	{
@@ -251,7 +251,7 @@ class Courier_model extends CI_Model
 	/**
 	 * Get members
 	 *
-	 * @return void
+	 * @return object
 	 */
 	public function getMembers($conf = array())
 	{
