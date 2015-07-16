@@ -4,7 +4,9 @@ Courier is an ExpressionEngine add-on for creating simple but reliable email com
 
 ## Documentation
 
-See the [wiki](https://github.com/tjdraper/courier/wiki) for documentation
+See the [wiki](https://github.com/tjdraper/courier/wiki) for documentation.
+
+## License
 
 Copyright 2015 TJ Draper, BuzzingPixel
 
