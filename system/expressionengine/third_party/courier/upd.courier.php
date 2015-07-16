@@ -8,7 +8,7 @@ include(PATH_THIRD . 'courier/config.php');
  *
  * @package courier
  * @author TJ Draper <tj@buzzingpixel.com>
- * @link https://buzzingpixel.com/ee-add-ons/mailing-list-manager
+ * @link https://buzzingpixel.com/ee-add-ons/courier
  * @copyright Copyright (c) 2015, BuzzingPixel
  */
 
@@ -56,7 +56,11 @@ class Courier_upd
 	public function uninstall()
 	{
 		ee()->db->delete('modules', array(
-			'module_name' => 'Mailing_list_manager'
+			'module_name' => 'Courier'
+		));
+
+		ee()->db->delete('actions', array(
+			'class' => 'Courier'
 		));
 
 		ee()->courier_install_model->removeTables();
