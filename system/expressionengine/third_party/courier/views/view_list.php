@@ -1,13 +1,4 @@
-<form
-	method="post"
-	enctype="multipart/form-data"
-	action="<?php echo $method_url . 'list_import_csv' . AMP . 'id=' . $listData['list']->id; ?>"
->
-	<input
-		type="hidden"
-		name="<?php echo ee()->security->get_csrf_token_name(); ?>"
-		value="<?php echo ee()->security->get_csrf_hash(); ?>"
-	>
+<?php echo form_open($method_url . 'list_import_csv&id=' . $listData['list']->id, array('enctype' => 'multipart/form-data')); ?>
 	<input type="file" name="csv_file" required>
 	<br>
 	<br>
@@ -16,12 +7,7 @@
 		Export CSV
 	</a>
 </form>
-<form method="post">
-	<input
-		type="hidden"
-		name="<?php echo ee()->security->get_csrf_token_name(); ?>"
-		value="<?php echo ee()->security->get_csrf_hash(); ?>"
-	>
+<?php echo form_open($method_url . 'view_list&id=' . $listData['list']->id); ?>
 	<input
 		type="hidden"
 		name="list_id"
