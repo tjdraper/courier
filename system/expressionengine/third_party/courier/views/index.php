@@ -1,9 +1,4 @@
-<form method="post">
-	<input
-		type="hidden"
-		name="<?php echo ee()->security->get_csrf_token_name(); ?>"
-		value="<?php echo ee()->security->get_csrf_hash(); ?>"
-	>
+<?php echo form_open($base_url); ?>
 	<table class="mainTable padTable" border="0" cellspacing="0" cellpadding="0">
 		<thead>
 			<tr>
